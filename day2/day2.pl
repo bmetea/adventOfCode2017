@@ -5,8 +5,6 @@ my $name_of_file = "day2.txt";
 $solution = solve($name_of_file);
 print "The checksum is $solution\n";
 
-
-
 sub solve {
     my ( $filename ) = @_; 
     my $checksum = 0;
